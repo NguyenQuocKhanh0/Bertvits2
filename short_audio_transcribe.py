@@ -62,7 +62,7 @@ if __name__ == "__main__":
         lang2token = {
             'zh': "ZH|",
         }
-    lif args.languages == "VN":
+    elif args.languages == "VN":
         lang2token = {
             'vi': "VN|",
         }
