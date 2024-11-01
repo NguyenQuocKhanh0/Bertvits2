@@ -12,7 +12,7 @@ import sys
 class Resample_config:
     """重采样配置"""
 
-    def __init__(self, in_dir: str, out_dir: str, sampling_rate: int = 44100):
+    def __init__(self, in_dir: str, out_dir: str, sampling_rate: int = 22050):
         self.sampling_rate: int = sampling_rate  # 目标采样率
         self.in_dir: str = in_dir  # 待处理音频目录路径
         self.out_dir: str = out_dir  # 重采样输出路径
